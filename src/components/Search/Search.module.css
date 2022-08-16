@@ -1,0 +1,23 @@
+.input{
+    width: 40%;
+    border-radius: 8px;
+    border: 2px solid #92b6ec;
+    padding: 10px 17px;
+    outline: none;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.179);
+}
+.input:focus{
+    border: 2px solid #0661ea;
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.179);
+}
+
+.btn{
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.179);
+}
+
+@media (max-width: 576px){
+    .input{
+        width:80%;
+    }
+
+}
